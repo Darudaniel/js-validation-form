@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom";
-import Users from './Users';
+// import Users from './Users';
 
 const Admin = () => {
     return (
         <section>
             <h1>Admins Page</h1>
             <br />
-            <Users />
+            {/* <Users /> */}
+            <p>Aqui podria haber una lista de usuarios</p>
             <br />
             <div className="flexGrow">
                 <Link to="/">Home</Link>
